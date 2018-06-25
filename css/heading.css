@@ -1,0 +1,34 @@
+@charset "utf-8";
+html{
+  font-size: 10px;
+}
+body{
+  font-size: 2rem;
+  /* background-color: rgba(255,0,0,0.5);
+  background-image: linear-gradient(45deg, rgba(0,255,0,0.5),rgba(0,0,255,0.5));
+  background-repeat: repeat-x;
+  background-position: 0 100px; */
+background-color:white;
+background-image: linear-gradient(90deg, rgba(200,0,0,.5) 50%, transparent 50%),
+linear-gradient(rgba(200,0,0,.5) 50%, transparent 50%);
+background-size:50px 50px;
+color:olive;
+}
+h1{
+  font-size: 48px;
+}
+h2{
+  font-size: 3em;
+}
+h3{
+  font-size: 300%;
+}
+h4{
+  font-size: 3rem;
+}
+h5{
+  font-size: 10vw;
+}
+h6{
+  font-size: 30pt;
+}
