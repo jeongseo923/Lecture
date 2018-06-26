@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+
+@keyframes text-ani{
+  0%{
+    font-size: 16px;
+    color:powderblue;
+    top: 0;
+    left:0;
+    opacity: 1;
+  }
+  100%{
+    font-size: 48px;
+    color:tomato;
+    top:150px;
+    left:450px;
+    opacity: 1;
+  }
+}
+@keyframes img-ani{
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(700px);
+  }
+}
+
+.text-wrap{
+  background-color: powderblue;
+  width: 1000px;
+  height: 300px;
+  margin: 0 auto;
+  position: relative;
+}
+.text{
+  position: absolute;
+  opacity: 0;
+  background-color: orange;
+  /* animation-name: text-ani;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay: 5s; 
+  위에를 한줄로 줄인 것 (순서대로 ) */
+  animation: text-ani 5s forwards ease-in-out infinite alternate 5s;
+}
+.img-wrap{
+  background-color:lemonchiffon;
+  padding: 50px;
+}
+.apeach{
+  animation: img-ani 5000ms forwards 3 alternate; 
+}
